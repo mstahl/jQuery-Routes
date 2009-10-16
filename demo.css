@@ -1,0 +1,16 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+body {
+  font-size: 13px;
+  background-color: #999;
+}
+
+#main-content {
+  width: 900px;
+  background-color: #fff;
+  padding: 25px;
+  margin: 30px auto 40px auto;
+}
+#strings { display: none; }
+#regexes { display: none; }
