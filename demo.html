@@ -9,13 +9,8 @@
   <script src="jquery.routes.js" type="text/javascript" charset="utf-8"></script>
   <link rel="stylesheet" href="demo.css" type="text/css" media="screen" title="no title" charset="utf-8" />
   <script type="text/javascript" charset="utf-8">
-    $.route("/demo.html", function () {
-      $("#status").hide('slow');
-      $("#strings").show('slow');
-    });
     $.route(/demo/, function () {
-      $("#status").hide('slow');
-      $("#regexes").show('slow');
+      $("#it-works").show('slow');
     });
   </script>
 </head>
@@ -24,8 +19,7 @@
   <div id="main-content">
     <h1>jQuery Routes demo</h1>
     <p>If everything's working, you should see below that matching via strings and regexes is working.</p>
-    <h1 id="strings">matching by strings is working</h1>
-    <h1 id="regexes">matching by regexes is working</h1>
+    <h1 id="it-works">it works!</h1>
   </div>
 </body>
 </html>
