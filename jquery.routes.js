@@ -14,7 +14,6 @@ jQuery.routes = []
 jQuery.route = function (route, callback) {
   jQuery.routes.push(function () {
     url = document.location.href.replace(/http:\/\/.*\//, '/');
-    console.log(url);
     if(route.test(url)) {
       callback();
     }
