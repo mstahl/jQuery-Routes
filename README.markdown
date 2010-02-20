@@ -1,5 +1,5 @@
-jQuery Routes
--------------
+# jQuery Routes
+
 jQuery Routes is a jQuery plugin that will add routes similar to those found in
 Sinatra to your javascripts. That way, if the URL in the browser bar matches a
 pattern you specify, a callback function can be run. Use it to make interactive
@@ -10,7 +10,7 @@ blocks.
 For right now you can only have routes expressed as a regular expression, but
 the hope is to eventually support all the features of Rack routes.
 
-Examples:
+# Examples:
 
  $.route(/foo/, function () { alert('foo'); });
 
